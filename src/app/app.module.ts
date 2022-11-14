@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MenuLateralComponent } from './menu-lateral/menu-lateral.component';
+import { CorpoComponent } from './corpo/corpo.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MenuLateralComponent,
+    CorpoComponent
   ],
   imports: [
     BrowserModule,
